@@ -1,0 +1,137 @@
+body {
+    background-image: url('large.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.header {
+    position: sticky;
+    top: 0; /* Menetapkan header menempel di bagian atas saat di-scroll */
+    z-index: 1000; /* Memastikan header berada di atas elemen lainnya */
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(247, 135, 169);
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    background-color: rgb(160, 225, 255);
+}
+
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 450%;
+    color: rgb(160, 225, 255);
+    background-image: url('wallp2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 480px 0px 35px 0px;
+}
+
+.me {
+    background-image: url('wallp1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.me img {
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.me p {
+    color: black;
+}
+
+.title {
+    margin-top: 50px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+div.study {
+    margin-top: 20px;
+    width: 100%;
+    overflow: auto;
+}
+
+div.study img {
+    width: 100px;
+}
+
+div.study div {
+    padding: 10px;
+    text-align: center;
+    width: 18.35%; 
+    height: 280px; 
+    float: left;
+}
+
+.all {
+    background-image: url('wallp3.gif');
+    background-size: cover;
+    margin: 50px 300px 0px 300px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.all h1 {
+    color: white;
+}
+
+div.porto {
+    margin: 20px;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+div.porto img {
+    width: 200px;
+}
+
+div.porto div {
+    border-radius: 20px;
+    padding: 30px;
+    margin: 5px 20px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+
+    background-image: url('wallp4.gif');
+    background-size: cover;
+}
+
+div.porto ol, li {
+    text-align: left;
+}
